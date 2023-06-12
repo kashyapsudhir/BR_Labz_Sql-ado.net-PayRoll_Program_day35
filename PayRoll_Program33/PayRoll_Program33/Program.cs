@@ -9,7 +9,8 @@ namespace PayRoll_Program33
             Console.WriteLine("Hello Day-33 Program Address Payroll Program\n");
 
             AdoDotNet ado = new AdoDotNet();
-            ado.CreateDatabase();
+            //ado.CreateDatabase();
+            ado.Select();
 
         }
     }

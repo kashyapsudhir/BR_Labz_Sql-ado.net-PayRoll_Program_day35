@@ -10,7 +10,7 @@ namespace PayRoll_Program33
 
             AdoDotNet ado = new AdoDotNet();
             //ado.CreateDatabase();
-            ado.Select();
+            ado.Update();
 
         }
     }
